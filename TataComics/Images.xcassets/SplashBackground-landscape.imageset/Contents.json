@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "SplashBackground-landscape.png",
+      "filename" : "SplashBackground-landscape-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "SplashBackground-landscape.png",
       "scale" : "2x"
     },
     {

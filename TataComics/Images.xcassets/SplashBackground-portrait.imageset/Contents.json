@@ -2,12 +2,13 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "SplashBackground-portrait-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "SplashBackground-portrait.png"
+      "filename" : "SplashBackground-portrait.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
