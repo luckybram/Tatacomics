@@ -392,6 +392,7 @@
 		50F607B21A37F2DF00A1D7D9 /* UICollectionViewLayout_Warpable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLayout_Warpable.h; sourceTree = "<group>"; };
 		50F9C8F81A408D0300286F79 /* PurchasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedViewController.h; sourceTree = "<group>"; };
 		50F9C8F91A408D0300286F79 /* PurchasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedViewController.m; sourceTree = "<group>"; };
+		813F8CB41E8B012300B43030 /* TataComics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TataComics.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -604,6 +605,7 @@
 		50EE2B6D1A1678020087FF90 /* TataComics */ = {
 			isa = PBXGroup;
 			children = (
+				813F8CB41E8B012300B43030 /* TataComics.entitlements */,
 				50EE2B721A1678020087FF90 /* AppDelegate.h */,
 				50EE2B731A1678020087FF90 /* AppDelegate.m */,
 				500707A31A2388D700584C9D /* AppSettings.h */,
@@ -872,6 +874,9 @@
 								enabled = 1;
 							};
 							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -1199,6 +1204,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TataComics/TataComics.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = TB76XM4259;
@@ -1231,6 +1237,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TataComics/TataComics.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = TB76XM4259;
